@@ -31,18 +31,39 @@
 .row{
     grid-column-gap: 40px;
     justify-content: center;
+    position: relative;
+    animation: contestant 1s ease-in;    
+    animation-fill-mode: forwards;
+}
+@keyframes contestant{
+    0%{
+        left: -10%
+    }
+    100%{
+        left:0%; 
+    }
 }
 
 .main-col{
     margin-top:30px;
     border:2px double grey;  
-    border-radius: 5px;          
+    border-radius: 5px;
+    animation: main-col;
+    box-shadow:  10px 5px 5px grey;
 }
 
 .main-col-content{
     display: flex;
     margin-top: 20px;
-    margin-bottom:20px
+    margin-bottom:20px;       
+}
+@keyframes main-col{
+    0%{
+        box-shadow:  none;
+    }
+    100%{
+        box-shadow:  10px 5px 5px grey;
+    }
 }
 .left{
     margin-left: 40px;

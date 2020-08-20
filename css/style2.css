@@ -59,6 +59,8 @@ footer{
     line-height: 30px;
     text-align: center;
     margin-top: 50px;
+    animation-name: evicted;
+    animation-duration: 5s;
 }
 
 footer a{    
