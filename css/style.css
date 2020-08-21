@@ -3,7 +3,8 @@
     padding: 0
 }
 body{
-    background: url(/img/image\ 1.png);
+    background: url(/img/image\ 1\ \(1\).png);
+    background-size: cover;
 }
 .vote-body{
     background-color: #fff;
